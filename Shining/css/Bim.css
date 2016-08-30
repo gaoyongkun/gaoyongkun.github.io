@@ -1,0 +1,52 @@
+.nav li:nth-child(5) a {border: 1px solid rgb(123,123,123);border-radius: 8px;color: white;}
+.top_wrap{position: fixed;top: 0;z-index: 999;}
+.bottom_wrap{margin-top: 50px;}
+
+/*相同样式*/
+#content_wrap{width: 100%;margin-top: 4.2em;}
+#content_wrap .bimWrap{width: 100%;height: 655px;background-color: #e5e5e5;}
+#content_wrap .bimWrap ._bim{width: 75%;max-width: 980px;height: 100%;margin: 0 auto;position: relative;}
+#content_wrap .bimWrap .bim{position: relative;z-index: 111;}
+#content_wrap .bimWrap .bim h2{font-size:1.4em;color: #616161;border: 1px solid #616161;border-radius: 6px;display: inline-block;
+	padding: 0 5px;line-height: 105%;margin-right: 5px;}
+#content_wrap .bimWrap .bim h3{font-size: 1.4em;color: #616161;display: inline-block;line-height: 150%;}
+#content_wrap .bimWrap .bim p{width: 40%;line-height: 1.4em;margin:15px 0;}
+/*第一块样式*/
+#content_wrap .bim1_wrap .bim1{padding-top: 173px;}
+#content_wrap .bim1_wrap .bim1 .bim1_left_pic{width: 40%;overflow: hidden;}
+#content_wrap .bim1_wrap .bim1 .bim1_left_pic img{float: left;width: 33%;}
+#content_wrap .bim1_wrap ._bim1 .bim1_right_pic {width: 350px;position: absolute;bottom: 0;right: -50px;}
+#content_wrap .bim1_wrap ._bim1 .bim1_right_pic img{width: 100%;float: left;}
+/*第二块样式*/
+#content_wrap .bim2_wrap{background-color: white;}
+#content_wrap .bim2_wrap .bim2{padding-top: 135px;}
+#content_wrap .bim2_wrap .bim2 .bim2_left_pic{width: 50%;overflow: hidden;}
+#content_wrap .bim2_wrap .bim2 .bim2_left_pic img{float: left;width: 47%;margin-right: 3%;}
+#content_wrap .bim2_wrap ._bim2 .bim2_right_pic {width: 350px;position: absolute;top: 0;right: -5px;}
+#content_wrap .bim2_wrap ._bim2 .bim2_right_pic img{width: 100%;float: left;}
+/*第三块样式*/
+#content_wrap .bim3_wrap .bim3{padding-top: 190px;padding-left: 19.5625em;}
+#content_wrap .bim3_wrap .bim3 .bim3_left_pic img{width: 45%;margin-right: 6px;}
+#content_wrap .bim3_wrap ._bim3 .bim3_right_pic {width: 400px;position: absolute;bottom: 0;left: -95px;}
+#content_wrap .bim3_wrap ._bim3 .bim3_right_pic img{width: 100%;float: left;}
+/*第四块样式*/
+#content_wrap .bim4_wrap{background-color: white;}
+#content_wrap .bim4_wrap .bim4{padding-top: 200px;padding-left: 160px;}
+#content_wrap .bim4_wrap .bim4 .bim4_left_pic{width: 40%;max-width: 215px;}
+#content_wrap .bim4_wrap .bim4 .bim4_left_pic img{width: 100%;margin-bottom: 6px;}
+#content_wrap .bim4_wrap ._bim4 .bim4_right_pic {width: 400px;position: absolute;top: 0;left: -42px;}
+#content_wrap .bim4_wrap ._bim4 .bim4_right_pic img{width: 100%;float: left;}
+.pic_right{position: absolute;width: 400px;right: -100px;bottom: 0;}
+/*第五块样式*/
+#content_wrap .bim5_wrap .bim5{padding-top: 340px;}
+#content_wrap .bim5_wrap ._bim5 .bim5_right_pic {width: 400px;position: absolute;top: 0;right: -43px;}
+#content_wrap .bim5_wrap ._bim5 .bim5_right_pic img{width: 100%;float: left;}
+/*小圆点样式*/
+html,body{height: 100%;}
+#slider{height: 20%;min-height:130px;position: fixed;right: 5px;top: 40%;}
+#slider li {width:33px;height:20%;text-align: center;position: relative;}
+#slider li .page{position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;width: 6px;height: 6px;background-color: #cfdb00;border-radius: 50%;cursor: pointer;}
+#slider li .firstP{width: 10px;height: 10px;border: 5px solid #cccccc;}
+/*下方箭头*/
+.godown{width: 40px;height: 40px;border-radius: 5px;background: #E6E6E6 url(_bg_pic/godown.png) no-repeat;
+	background-size: 100% 100%;position: fixed;bottom: 10px;right: 0;left: 0;margin: 0 auto;z-index: 9999;cursor: pointer;}

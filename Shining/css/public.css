@@ -1,0 +1,45 @@
+@media screen and (min-width: 641px){
+	/*头部导航样式*/
+	.top_wrap {width: 100%;height: 4.2em;background-color: #1b1b1b;}
+	.nav_wrap {max-width:1127px;height: 4.2em;margin: 0 auto;}
+	.logo {float: left;height: 4.2em;}
+	.logo img {margin-top: 17px;}
+	.nav {height: 4.2em;float: right;}
+	.nav li {float: left;margin-right: 30px;line-height: 4.2em;}
+	.nav li a {color:#a8a8a8;padding: 5px 10px;}
+	.nav li:last-child {margin-right: 0;}
+	/*.nav li:first-child a {border: 1px solid rgb(123,123,123);border-radius: 8px;color: white;}*/
+	.nav li a:hover {border: 1px solid rgb(123,123,123);border-radius: 8px;color: white;}
+	#downMenu{display: none;}
+}
+@media screen and (max-width: 848px){
+	.nav {display: none;}
+	#btn{width: 1.4em;height: 1.2em;float: right;margin-right: 5%;margin-top: 22px;
+		background-image: url(_bg_pic/nav.png);background-size: 100% 100%;cursor: pointer;}
+	html,body{height: 100%;}
+	#downMenu {width: 50%;height: 100%;background-color:#f2f2f2;border-left: 2px solid #555;position: fixed;top: 4.2em;right: 0;
+		z-index: 999;display: none;}
+	#downMenu li {height: 3.6em;line-height: 3.6em;padding-left: 20px;}
+	#downMenu li a {color: #cfdb00;font-size: 1.2em;display: block;width: 100%;height: 100%;background: url(_bg_pic/down.png) no-repeat;
+		background-size: 0.8em;background-position: 85%;}
+	#downMenu li:hover {background-color: #e5e5e5;border-bottom: 1px solid rgba(0,0,0,0.1)}
+}
+@media screen and (max-width: 640px){
+	/*头部导航样式*/
+	.top_wrap {width: 100%;height: 3.2em;background-color: rgb(27,27,27);}
+	.nav_wrap {max-width:1127px;height: 3.2em;margin: 0 auto;}
+	.logo {float: left;margin-left:4%;height: 3.2em;}
+	.logo img {margin-top: 8px;}
+	.nav {display: none;}
+	#btn{width: 1.8em;height: 1.6em;float: right;margin-right: 8%;margin-top: 12px;
+		background-image: url(_bg_pic/nav.png);background-size: 100% 100%;cursor: pointer;}
+	#downMenu{width: 100%;top: 3.2em;}
+}
+/*底部内容样式*/
+.bottom_wrap {width: 203px;margin: 0 auto;overflow: hidden;}
+.bottom_wrap .mail {width: 25px;height:19px;margin: 0 auto;position: relative;}
+.bottom_wrap img {width: 25px;position: absolute;}
+.bottom_wrap ul {width: 140px;height:25px;margin: 16px auto;}
+.bottom_wrap ul li {width:25px;height:25px;margin: 0 5px;float:left;position: relative;}
+.bottom_wrap p {font-size: 10px;color: #808080;margin-top: 30px;margin-bottom: 20px;}
+.bottom_wrap a img:last-child:hover{opacity: 0;}

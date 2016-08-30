@@ -1,0 +1,10 @@
+.nav li:nth-child(2) a {border: 1px solid rgb(123,123,123);border-radius: 8px;color: white;}
+.bottom_wrap{margin-top: 50px;}
+.wrap {width: 100%;padding-bottom: 2em;background:#e3e3e3 url(_bg_pic/bg.png) no-repeat;background-position: center;}
+.text {width: 490px;padding-top: 100px;padding-left: 10px;}
+.wrap .text h3 {font-size: 1.8em;margin-bottom:20px;}
+.wrap .text p {line-height: 2em;padding-bottom: 2em;}
+.bottom_photo img {margin-right: 60px;}
+@media screen and (max-width: 640px){
+	.wrap .text {width: 95%;}
+}

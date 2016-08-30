@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/rendering.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<title>Rendering_Shining</title>
+</head>
+<body>
+<!-- 顶部导航结构 -->
+	<div class="top_wrap">
+		<div class="nav_wrap">
+			<div class="logo">
+				<a href="#">
+					<img src="img/home/logo.png">
+				</a>
+			</div>
+			<ul class="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="rendering.html">Rendering</a></li>
+				<li><a href="animation.html">3D Animation</a></li>
+				<li><a href="bim.html">Bim</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<div id="btn"></div>
+			<ul id="downMenu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="rendering.html">Rendering</a></li>
+				<li><a href="animation.html">3D Animation</a></li>
+				<li><a href="bim.html">Bim</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+<!-- 轮播图结构 -->
+	<div id="l_wrap">
+		<div id="move_photo">
+			<img id="img_first" src="img/rendering/Banner (1).jpg" alt="">
+			<img src="img/rendering/Banner (2).jpg" alt="">
+			<img src="img/rendering/Banner (3).jpg" alt="">
+			<img  id="float" src="img/rendering/Banner (1).jpg" alt="">
+		</div>
+		<!-- 小圆点结构 -->
+		<ul id="slider">
+			<li class="li_first"></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<!-- 开关结构 -->
+		<div class="switch">
+			<div id="start">
+				<img style="cursor: pointer" src="img/rendering/start1.png">
+				<img src="img/rendering/start2.png">
+			</div>
+			<div id="stop">
+				<img src="img/rendering/stop2.png">
+				<img style="cursor: pointer" src="img/rendering/stop1.png">
+			</div>
+		</div>
+	</div>
+<!-- 瀑布流结构 -->
+	<div id="progressWrap">
+		<h5 id="h">图片加载中，请稍后······</h5>
+		<div class="box">
+			<div id="bgprogress" class="progress">
+				<div id="loadingprogress" class="progress"></div>
+			</div>
+			<p>0%</p>
+		</div>
+	</div>
+	<div id="p_wrap">
+		<ul></ul>
+		<ul></ul>
+		<ul class="hideUl"></ul>
+		<ul class="hideUl"></ul>
+	</div>
+	<!-- 放大镜结构 -->
+	<div id="hideBody">
+		<div id="hideDiv"></div>
+	</div>
+<!-- 底部内容结构 -->
+	<div class="bottom_wrap">
+		<div class="mail">
+			<a href="#">
+				<img src="img/home/mail2.jpg">
+				<img src="img/home/mail1.jpg">
+			</a>
+		</div>
+		<ul>
+			<li>
+				<a href="#">
+					<img src="img/home/facebook2.jpg" alt="">
+					<img src="img/home/facebook1.jpg" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/home/youtube2.jpg" alt="">
+					<img src="img/home/youtube1.jpg" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/home/linkedln2.jpg" alt="">
+					<img src="img/home/linkedln1.jpg" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/home/twitter2.jpg" alt="">
+					<img src="img/home/twitter1.jpg" alt="">
+				</a>
+			</li>
+		</ul>
+		<p>Copyright © 1998-2015 shining Group</p>
+	</div>
+</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/rendering-瀑布流.js"></script>
+	<script type="text/javascript" src="js/rendering-轮播图.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+</html>
